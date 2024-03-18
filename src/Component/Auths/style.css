@@ -1,0 +1,107 @@
+
+.auth_container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background:rgba(0,0,0,.6)
+}
+.auth_content{
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius:10px;
+    margin: 2em auto;
+    padding: 3em;
+}
+  .auth_card{
+      border-radius: 10px;
+      margin: 10px auto;
+      background-color: transparent;
+      width:100%;
+      display: flex;
+      color: #000;
+      flex-direction:column;
+      justify-content:left;
+      align-items:center;
+    }
+    .auth_card_group{
+      background-color: transparent;
+      margin:5px auto;
+      display: flex;
+      flex-direction:column;
+      justify-content:left;
+      align-items:center;
+      width:100%;
+    }
+    .auth_card_title{
+      font-size: 1.5em;
+      font-weight:bold;
+      width:90%;
+      padding:10px;
+      text-align:center;
+      border-radius:10px;
+      margin:10px auto;
+      background-color: transparent
+    }
+    .auth_card_label{
+      font-size: 1em;
+      font-weight:bold;
+      text-align: left;
+      width:90%;
+      background-color: transparent;
+    }
+    .auth_card_input{
+      background:#c9c7c7;
+      border:none;
+      width: 90%;
+      padding: 15px;
+      margin:10px auto;
+      border-radius:10px;
+      font-size:1em;
+      outline:none;
+    }
+    .auth_card_input:focus{
+      border:none;
+      outline:none;
+    }
+    .forget_password{
+     background:transparent;
+      padding:10px;
+      width:90%;
+      text-align:right;
+      color:rgb(106, 0, 255);
+      cursor:pointer;
+    }
+    .auth_card_error{
+      background:transparent;
+      padding:10px;
+      width:90%;
+      text-align:center;
+      font-size:1em;
+      color:rgb(187, 20, 62);
+    }
+    .auth_card_btn{
+      background:#361d5e;
+      align-items:center;
+      padding: 15px;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      margin:10px auto;
+      font-size: 1em;
+      font-weight: bold;
+      width: 90%;
+      cursor:pointer;
+    }
+
+    @media screen and (max-width:600px){
+    .auth_content{
+      width:95%;
+    }
+    }
+
+   

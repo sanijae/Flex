@@ -1,0 +1,90 @@
+.wallet_container{
+    background: #dfdddd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.wallet_content{
+    width:80%;
+    padding: 2em;
+    display: flex;
+    align-items:center;
+    background:transparent;
+    margin:1em auto;
+}
+.wallet_column{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    background:transparent;
+}
+.line{
+    background:rgb(32, 6, 49);
+    width: 10px;
+    height:2em;
+    margin-left:10px;
+    margin-right:10px;
+}
+.wallet_balance_container{
+    background:transparent;
+    padding: 1em;
+    margin: 10px auto;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.wallet_balance_row{
+    background:transparent;
+    padding: 1em;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.wallet_balance_title{
+    background:transparent;
+    font-size: 2em;
+    font-weight: bold;
+}
+.wallet_balance_button{
+    font-size: 1em;
+    border: none;
+    padding: 10px;
+    background: transparent;
+}
+.grid{
+    display: grid;
+    width:100%;
+    grid-template-columns: repeat(2,49%);
+    justify-content:center;
+    background:transparent;
+    grid-gap: 10px;
+}
+.wallet_card{
+    background:#fff;
+    margin:10px auto;
+    padding: 10px;
+}
+.wallet_card_title{
+    background:transparent;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+.wallet_card_subtitle{
+    background:transparent;
+    font-size: 1em;
+    padding: 10px;
+}
+@media screen and (max-width:700px) {
+    .wallet_content{
+        width:90%;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        background:transparent;
+        margin:1em auto;
+    }
+}

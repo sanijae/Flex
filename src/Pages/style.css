@@ -1,0 +1,101 @@
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background:rgba(0,0,0,.3)
+}
+.content{
+    width:70%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius:10px;
+    height: 30em;
+    margin: 2em auto;
+    padding-top:2em;
+    padding-bottom:2em;
+}
+  .card{
+      padding: 3em;
+      border-radius: 10px;
+      margin: 10px auto;
+      background-color: transparent;
+      width:80%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+    } 
+    .card_group{
+      background-color: transparent;
+      margin:10px auto;
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+      width:100%;
+    }
+    .card_row{
+      background-color: transparent;
+      display: flex;
+      justify-content:left;
+      align-items:center;
+    } 
+    .card_auth_grid{
+      display: grid;
+      grid-template-columns: repeat(2,50%);
+      background:transparent;
+      margin:1em auto;
+      grid-gap: 10px;
+    }
+    .card_title{
+      font-size: 1.5em;
+      font-weight:bold;
+      width:90%;
+      padding:10px;
+      text-align:center;
+      border-radius:10px;
+      margin:10px auto;
+      background-color: transparent;
+    }
+    .card_label{
+      font-size: 1em;
+      font-weight:bold;
+      width: 100%;
+      text-align:left;
+      background-color: transparent;
+    }
+    .card_input{
+      background:rgb(185, 182, 182);
+      border:none;
+      width:100%;
+      border-radius:10px;
+      margin:10px auto;
+      font-size:1em;
+      outline:none;
+    }
+    .card_input:focus{
+      border:none;
+      outline:none;
+      border-bottom:1px rgb(106, 0, 255);
+    }
+    .card_btn{
+      background: rgb(106, 0, 255);
+      align-items:center;
+      padding: 20px;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.5em;
+      font-weight: bold;
+      width: 60%;
+    }
+
+  @media screen and (max-width:700px){
+    .content{
+      width:90%;
+  }
+  }

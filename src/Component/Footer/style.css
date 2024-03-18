@@ -1,0 +1,40 @@
+
+/* Footer Styless */
+.footer{
+    background: rgb(31, 50, 61);
+    color: #fff;
+    padding: 0px 2em;
+  }
+  .footer_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 1em;
+  }
+  .footer_items{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+  }
+  .footer_text{
+    font-size:1em;
+    padding:10px;
+    background:transparent;
+  }
+  .footer_links{
+    font-size:1em;
+    font-weight:bold;
+    padding:10px;
+    margin-right:10px;
+    margin-left:10px;
+    cursor:pointer;
+    background:transparent;
+  }
+
+  @media screen and (max-width:900px){
+    .footer_row{
+      display:flex;
+      flex-direction:column-reverse;
+    }
+  }
